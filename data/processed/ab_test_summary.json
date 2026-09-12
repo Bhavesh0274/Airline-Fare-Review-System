@@ -1,0 +1,14 @@
+{
+  "n_treatment": 27006,
+  "n_control": 26984,
+  "mean_revenue_treatment": 354.59,
+  "mean_revenue_control": 355.19,
+  "lift_pct": -0.17,
+  "ci_low": -4.23,
+  "ci_high": 3.04,
+  "p_value": 0.746954359479462,
+  "cohens_d": -0.0028,
+  "achieved_power": 0.062,
+  "mde_cohens_d": 0.0241,
+  "elasticity_assumption": 1.3
+}

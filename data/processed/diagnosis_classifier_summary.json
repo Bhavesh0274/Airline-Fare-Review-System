@@ -1,0 +1,20 @@
+{
+  "accuracy": 0.7298,
+  "majority_baseline": 0.6674,
+  "macro_f1": 0.636,
+  "n_train": 113640,
+  "n_test": 48703,
+  "feature_importances": {
+    "seatsRemaining": 0.4417,
+    "totalFare": 0.1974,
+    "days_to_departure": 0.0934,
+    "totalTravelDistance": 0.0742,
+    "segmentsAirlineName": 0.0685,
+    "route": 0.048,
+    "isBasicEconomy": 0.0281,
+    "day_of_week": 0.0224,
+    "segmentsCabinCode": 0.0189,
+    "isNonStop": 0.0074,
+    "isRefundable": 0.0
+  }
+}

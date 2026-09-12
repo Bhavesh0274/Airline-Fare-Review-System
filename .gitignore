@@ -1,0 +1,21 @@
+# Raw data: the full source (29GB) and Kaggle samples are all reproducible
+# via the documented download steps in load_data.py / build_route_timeseries.py
+# -- never committed, since they're either huge or trivially re-fetchable.
+data/raw/
+
+# Large regenerable derivatives -- outputs of the src/ scripts, not source of
+# truth. Re-run the pipeline to reproduce them. Smaller result/summary files
+# (JSON summaries, the SARIMA results, the route-level daily series, the
+# labeled explanation samples) are kept since they're small and let anyone
+# browsing the repo see real results without re-running everything.
+data/processed/longitudinal_extract.csv
+data/processed/flights_clean.csv
+data/processed/flights_final_policy.csv
+data/processed/flights_scored.csv
+data/processed/ab_test_results.csv
+data/processed/diagnosis_classifier_results.csv
+data/processed/longitudinal_pairs.csv
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
