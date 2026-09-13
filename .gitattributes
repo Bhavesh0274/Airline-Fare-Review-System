@@ -1,0 +1,8 @@
+# Explicit binary marking -- without this, git's line-ending normalization
+# (core.autocrlf on Windows) can silently corrupt these on checkout/checkin.
+# "binary" is shorthand for "-text -diff".
+*.pdf binary
+*.keras binary
+*.png binary
+*.jpg binary
+*.zip binary
